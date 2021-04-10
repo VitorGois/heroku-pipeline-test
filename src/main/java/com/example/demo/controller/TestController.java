@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping()
     public String test() {
-        return "Hello Spring!";
+        return "<h1>Hello Spring!!!</h1></br><h2>Server is running...</h2>";
     }
 }
